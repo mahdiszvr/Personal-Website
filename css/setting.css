@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+    background-color: #7d6df666;
+    background-image: url(../media/main_bg.png) ;
+    background-size: cover;
+    background-position: center;
+    font-family: iransans;
+}
+:root{
+    --mcolor: #7E6DF6;
+}
+@font-face {
+    font-family:irannum ;
+    src: url(../media/font/IRANSansXFaNum-Medium.woff2);
+}
+@font-face {
+    font-family: iransans;
+    src: url(../media/font/IRANSansX-Medium.woff2);
+}
+a{
+    text-decoration: none;
+}

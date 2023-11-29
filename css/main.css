@@ -1,0 +1,39 @@
+@import url(./setting.css);
+
+/*import menu*/
+@import url(./partials/menu/menu-xl.css);
+@import url(./partials/menu/menu-lg.css);
+@import url(./partials/menu/menu-md.css);
+@import url(./partials/menu/menu-sm.css);
+@import url(./partials/menu/menu-xs.css);
+
+/*import home*/
+@import url(./partials/home/home-xl.css);
+@import url(./partials/home/home-lg.css);
+@import url(./partials/home/home-md.css);
+@import url(./partials/home/home-sm.css);
+@import url(./partials/home/home-xs.css);
+
+/*import resume*/
+@import url(./partials/resume/resume-xl.css);
+@import url(./partials/resume/resume-lg.css);
+@import url(./partials/resume/resume-md.css);
+@import url(./partials/resume/resume-sm.css);
+@import url(./partials/resume/resume-xs.css);
+
+/*import service*/
+@import url(./partials/service/service-xl.css);
+@import url(./partials/service/service-lg.css);
+@import url(./partials/service/service-md.css);
+@import url(./partials/service/service-sm.css);
+@import url(./partials/service/service-xs.css);
+
+/*import blog*/
+@import url(./partials/blog/blog-xl.css);
+@import url(./partials/blog/blog-lg.css);
+@import url(./partials/blog/blog-md.css);
+@import url(./partials/blog/blog-sm.css);
+@import url(./partials/blog/blog-xs.css);
+
+/*import contact*/
+@import url(./partials/);

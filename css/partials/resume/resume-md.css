@@ -1,0 +1,163 @@
+@media(min-width:768px) and (max-width:992px){
+
+    div.Rmain{
+        width: 95%;
+        margin: 60px auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px var(--mcolor);
+    }
+    div.Rmain > div.top{
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        background-color: var(--mcolor);
+        background-image: url("/media/sp_main_bg_R.png") ;
+        background-size: cover;
+        background-position: center;
+        padding: 30px 50px;
+    }
+    div.Rmain > div.top > h2{
+        color: white;
+        font-size: 42px;
+        text-align: center;
+        line-height: 65px;
+    }
+    div.Rmain > div.bottom{
+        width: 100%;
+        background-color: whitesmoke;
+        border-radius: 0 0 15px 15px;
+        padding: 30px 20px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    div.Rmain > div.bottom > div{
+        width: 50%;
+        padding: 0 18px;
+    }
+    div.Rmain > div.bottom > div.right > h3 , div.left > h3{
+        font-size: 19px;
+        margin: 5px 0 25px 0;
+    }
+    div.timeline{
+        direction: ltr;
+        border-right: 2px solid lightgray;
+        padding: 15px 0;
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 20px;
+        margin-bottom: 20px;
+        
+    }
+    div.timeline > div.items{
+        margin-right: 25px;
+        direction: rtl;
+        padding: 10px 18px;
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 10px;
+        border: 2px solid lightgray;
+        border-right: 2px solid var(--mcolor);
+        position: relative;
+    
+    }
+    div.timeline > div.items:hover{
+        box-shadow: 1px 1px 7px var(--mcolor);
+    }
+    div.timeline > div.items > h4{
+        font-size: 15px;
+    }
+    div.timeline > div.items > p{
+        font-size: 14px;
+    }
+    
+    div.timeline > div.items > div.span {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:right ;
+        font-size: 12px;
+
+    }
+    div.timeline > div.items span:nth-last-of-type(1){
+        color: gray;
+        margin-right: 8px;
+        padding-right: 8px;
+        border-right: 2px solid lightgray;
+    }
+    div.timeline > div.items span:nth-last-of-type(2){
+        font-family: irannum;
+        color: var(--mcolor);
+    }
+    div.timeline > div.items > div.circle{
+        width: 13px;
+        height: 13px;
+        background-color: whitesmoke;
+        border-radius: 50%;
+        border: 2px solid var(--mcolor);
+        position: absolute;
+        right: -34px;
+        top: 15px;
+    }
+    div.timeline > div.items > div.line{
+        width: 23px;
+        height: 0;
+        border-top: 3px solid var(--mcolor);
+        position: absolute;
+        right: -23px;
+        top: 21px;
+    }
+    div.Rmain > div.bottom div.skill{
+        padding: 10px 0;
+    }
+    div.Rmain > div.bottom div.skill > h3{
+        font-size: 19px;
+        margin: 5px 0;
+        margin-bottom: 30px;
+    }
+    div.Rmain > div.bottom div.skill span{
+        color: var(--mcolor);
+    }
+    div.Rmain > div.bottom div.skill > h4{
+        font-size: 12px;
+    }
+    div.Rmain > div.bottom div.skill > div.skill-container {
+        height: 10px;
+        background-color: #F5F5F5;
+        border: 1px solid lightgray;
+        margin-bottom: 20px;
+    }
+    div.Rmain > div.bottom div.skill > div.skill-container > div {
+        height: 9px;
+        background-color: var(--mcolor);
+    }
+    div.Rmain > div.bottom div.skill > div.skill-container > div.percent1 {
+        width: 90%;
+    }
+    div.Rmain > div.bottom div.skill > div.skill-container > div.percent2 {
+        width: 50%;
+    }
+    div.Rmain > div.bottom div.skill > div.skill-container > div.percent3 {
+        width: 70%;
+    }
+    div.Rmain > div.bottom > div.left > div.skill > div.skill-container > div.percent3 {
+        width: 30%;
+    }
+    div.Rmain > div.bottom > div.Rbutton{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.Rmain > div.bottom > div.Rbutton > a{
+        background-color: white;
+        color: black;
+        font-size: 14px;
+        padding: 0 13px;
+        line-height: 35px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.329);
+    }
+    div.Rmain > div.bottom > div.Rbutton > a:hover{
+        box-shadow: 2px 2px 7px var(--mcolor);
+    }
+}

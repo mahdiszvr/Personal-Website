@@ -1,0 +1,22 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "fontawesome-free-6.4.2-web": true,
+    ".vscode": true,
+    "node_modules": true
+  },
+  "hide-files.files": [
+    "package-lock.json",
+    "package.json",
+    "fontawesome-free-6.4.2-web",
+    ".vscode",
+    "node_modules"
+  ]
+}

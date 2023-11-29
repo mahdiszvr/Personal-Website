@@ -1,0 +1,66 @@
+@media(min-width:768px) and (max-width:992px){
+    
+    div.menu{
+        width: 100%;
+        background-color: #998eedfb;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+    }
+    div.menu > nav{
+        width: 95%;
+        height: inherit;
+        margin: 0 auto;
+        padding: 10px 0;
+        text-align: left;
+        line-height: 30px;
+        display: flex;
+        flex-flow:row wrap;
+        justify-content: space-between;
+        position: sticky;
+    }
+    div.menu > nav > ul{
+        flex-grow: 2;
+        height: inherit;
+        text-align: center;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    div.menu > nav > ul > li{
+        position: relative;
+    }
+    div.menu > nav > ul > li > a{
+        color: black;
+        display: block;
+        padding: 0 10px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    div.menu > nav > ul > li > a:hover{
+        color: whitesmoke;
+    }
+    div.menu > nav > ul > li > div{
+        width: 0;
+        height: 1.5px;
+        background-color: white;
+        position: absolute;
+        top: 30px;
+        left: calc(50% - 0px);
+        transition: all 150ms linear;
+    }
+    div.menu > nav > ul > li:hover > div{
+        width: 30px;
+        left: calc(50% - 15px);
+    }
+    div.menu > nav > div.name{
+        flex-grow: 4;
+        display: flex;
+        justify-content: right;
+        font-size: 13px;
+    }
+    div.menu > nav > div.name span{
+        color: #7E6DF6;
+    }
+}

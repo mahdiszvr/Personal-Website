@@ -1,0 +1,259 @@
+@media(min-width:992px) and (max-width:1230px){
+    
+    div.Smain{
+        width: 90%;
+        margin: 80px auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px var(--mcolor);
+    }
+    div.Smain > div.top{
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        background-color: var(--mcolor);
+        background-image: url("/media/sp_main_bg_R.png") ;
+        background-size: cover;
+        background-position: center;
+        padding: 30px 50px;
+    }
+    div.Smain > div.top > h2{
+        color: white;
+        font-size: 44px;
+        text-align: center;
+        line-height: 75px;
+    }
+    div.Smain > div.bottom{
+        width: 100%;
+        background-color: whitesmoke;
+        border-radius: 0 0 15px 15px;
+        padding: 30px 30px;
+    }
+    div.Smain > div.bottom > div{
+        padding: 5px 5px 20px 5px !important;
+    
+    }    
+    div.Smain > div.bottom > div.myservice > h3{
+        font-size: 19px;
+        padding: 5px 0;
+        margin-bottom:25px;
+    }
+    div.Smain > div.bottom > div.myservice span{
+        color: var(--mcolor);
+        font-size: 19px;
+    }
+    div.Smain > div.bottom > div.myservice > div.service-info{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        column-gap: 10px;
+    }
+    div.Smain > div.bottom > div.myservice > div.service-info > div.Sitems{
+        width: 24%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+    }
+    div.Smain > div.bottom > div.myservice > div.service-info > div.Sitems > div.Simage{
+        width:100px ;
+        height: 100px;
+        border-radius: 50%;
+        background-color: rgb(232, 228, 228);
+        display: flex;
+        flex-wrap:wrap ;
+        align-items: center;
+        justify-content: center;
+        transition: all 200ms linear;
+    }
+    div.Smain > div.bottom > div.myservice > div.service-info > div.Sitems > div.Simage:hover{
+        box-shadow: 0 4px 10px var(--mcolor);
+        transform: translateY(-10px);
+    }
+    div.Smain > div.bottom > div.myservice > div.service-info > div.Sitems img{
+        width: 50%;
+    }
+    div.Smain > div.bottom > div.myservice > div.service-info > div.Sitems > h4{
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    div.Smain > div.bottom > div.myservice > div.service-info > div.Sitems > p{
+        line-height: 30px;
+        font-size: 14px;
+        margin: 10px;
+        text-align: center;
+    }
+    div.Smain > div.bottom > div.customers > h3{
+        font-size: 19px;
+        padding: 5px 0;
+        margin-bottom:25px;
+    }
+    div.Smain > div.bottom > div.customers > div.C-logo{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 8px;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    div.Smain > div.bottom > div.customers > div.C-logo > div.logo{
+        width: 15%;
+        padding: 0 15px;
+        text-align: center;
+    }
+    div.Smain > div.bottom > div.customers > div.C-logo > div.logo:hover > a > img{
+        opacity: 1;
+    }
+    div.Smain > div.bottom > div.customers > div.C-logo > div.logo > a > img{
+        width: 75%;
+        opacity: 0.5;
+        transition: all 300ms linear;
+    
+    }
+    div.Smain > div.bottom > div.comments{
+        width: 100%;
+    }
+    div.Smain > div.bottom > div.comments > h3{
+        font-size: 19px;
+        padding: 5px 0;
+        margin-bottom:20px;
+    }
+    .swiper {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .swiper-slide {
+        font-size: 18px;
+        display: flex;
+        justify-content: center ;
+        align-items: end !important;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: absolute;
+        top: -60px;
+        left: 55%;
+    }
+    div.swiper-slide > div.content{
+        display: flex;
+        margin-top: 65px;
+        align-items: center; 
+        padding: 5px 20px;
+        position: relative;
+        border: 2px solid lightgray;
+        border-top: 2px solid var(--mcolor);
+    
+    }
+    div.swiper-slide > div.content > p{
+        text-align: right;
+        font-size: 14px;
+        margin: 20px 0;
+    }
+    div.swiper-slide > div.content > div.credit {
+        position: absolute;
+        top: -55px;
+        right: 47%;
+        text-align: right;
+    }
+    div.swiper-slide > div.content > div.credit > p:nth-of-type(1) {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    div.swiper-slide > div.content > div.credit > p:nth-of-type(2) {
+        font-size: 9px;
+        color: gray;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        width: 26px;
+        height: 26px;
+        color: gray !important;
+    }
+    
+    div.Smain > div.bottom > div.price > h3{
+        font-size: 19px;
+        padding: 5px 0;
+        margin-bottom:25px;
+    }
+    div.Smain > div.bottom > div.price > div.plans{
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+    div.Smain > div.bottom > div.price > div.plans > div:nth-of-type(2){
+        transform: translateY(-10px);
+        box-shadow: 1px 1px 9px #7d6df68f;
+    }
+    
+    div.Smain > div.bottom > div.price > div.plans > div:nth-of-type(2) > div.Phead > p{
+        display: inline;
+        border-bottom: 1px solid var(--mcolor);  
+    }
+    div.Smain > div.bottom > div.price > div.plans > div.plan-item{
+        width: 31%;
+        border: 1px solid lightgray;
+        padding: 30px;
+        text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: start;
+        row-gap: 5px;
+        transition: all 200ms linear;
+    }
+    
+    div.Smain > div.bottom > div.price > div.plans > div.plan-item:hover{
+        transform: translateY(-20px);
+        box-shadow: 1px 1px 9px #7d6df68f;
+    }
+    div.Smain > div.bottom > div.price > div.plans > div.plan-item > div.Phead > p{
+        font-family: irannum;
+        font-size: 14px;
+    }
+    div.Smain > div.bottom > div.price > div.plans > div.plan-item > div.pricing{
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 15px;
+        margin: 10px 0;
+        
+    }
+    div.Smain > div.bottom > div.price > div.plans > div.plan-item > div.pricing > span{
+        font-family: irannum;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    div.Smain > div.bottom > div.price > div.plans > div.plan-item > div.pricing > p{
+        font-size: 13px;
+    }
+    div.Smain > div.bottom > div.price > div.plans > div.plan-item > div.pricing > p:nth-last-of-type(1){
+        font-size: 12px;
+        color: gray;
+    }
+    div.Smain > div.bottom > div.price > div.plans > div.plan-item > div.Pbutton{
+        padding: 10px 0 ;
+    }
+    div.Smain > div.bottom > div.price > div.plans > div.plan-item > div.Pbutton > a{
+        display: inline-block;
+        background-color: var(--mcolor);
+        color: white;
+        font-size: 14px;
+        padding: 0 15px;
+        line-height: 35px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.329);
+    }
+    div.Smain > div.bottom > div.price > div.plans > div.plan-item > div.Pbutton > a:hover{
+        box-shadow: 2px 2px 7px var(--mcolor);
+    
+    }
+    div.Smain > div.bottom > div.price > div.plans > div.plan-item >p {
+        padding: 10px;
+        line-height: 28px;
+        text-align: justify;
+        font-size: 14px;
+    }
+}
