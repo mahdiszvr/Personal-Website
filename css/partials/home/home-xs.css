@@ -11,7 +11,7 @@
         width: 100%;
         border-radius: 15px 15px 0 0;
         background-color: #7E6DF6;
-        background-image: url(/media/sp_main_bg.png) ;
+        background-image: url(../../../media/sp_main_bg.png) ;
         background-size: cover;
         background-position: center;
         justify-content: center;
@@ -21,7 +21,7 @@
     div.main > div.top > div.photo{
         width: 185px;
         height: 185px;
-        background: url(/media/woman-icon.png) no-repeat;
+        background: url(../../../media/woman-icon.png) no-repeat;
         background-size: cover;
         margin: 0 auto;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.331);
